@@ -1,0 +1,25 @@
+# Recordings are private: never commit audio or video, in or out.
+input/
+output/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.aiff
+*.flac
+
+# Per-model virtual environments (several GB each)
+.venv*/
+
+# Model weights, pip, torch hub, temp files (scripts/env.sh points everything here)
+.cache/
+
+# Third-party source clones
+vendor/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

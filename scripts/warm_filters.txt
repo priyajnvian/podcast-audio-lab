@@ -1,0 +1,7 @@
+highpass|Rumble cut|highpass=f=70:poles=2
+mud|Mud cut (-4 dB @ 250 Hz)|equalizer=f=250:t=q:w=1.2:g=-4
+presence|Presence lift (+2.5 dB @ 2.5 kHz)|equalizer=f=2500:t=q:w=0.7:g=2.5
+soften|Harshness dip (-1 dB @ 4.5 kHz)|equalizer=f=4500:t=q:w=1.5:g=-1
+air|Air shelf (+1.5 dB above 10 kHz)|highshelf=f=10000:g=1.5
+compress|Gentle compressor (2.5:1, slow)|acompressor=threshold=-24dB:ratio=2.5:attack=20:release=250:knee=6:makeup=2
+deess|De-esser|deesser=i=0.3:m=0.5:f=0.5
